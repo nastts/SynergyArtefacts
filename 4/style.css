@@ -1,0 +1,62 @@
+@keyframes disappearing{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes appearing{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.main-img{
+    position: absolute;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+.color-img{
+    position: absolute;
+    width: 100%;
+    max-width: 97px;
+    height: auto;
+    animation: appearing 1s forwards alternate;
+}
+.russia{
+    top: 183.4px;
+    left: 799.2px;
+}
+.iran{
+    top: 297px;
+    left: 800px;
+    max-width: 98px;
+}
+.netherlands{
+    top: 416px;
+    left: 802px;
+}
+
+.ts-img{
+    position: absolute;
+    width: 100%;
+    max-width: 97px;
+    height: auto;
+    opacity: 0;
+    animation: disappearing 0.1s forwards alternate;
+}
+
+.ts-img:hover{
+    animation: appearing 1s forwards alternate;
+}

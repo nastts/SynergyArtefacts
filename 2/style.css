@@ -1,0 +1,39 @@
+.main-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-part img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+
+}
+.bubble{
+    position: absolute;
+    
+    transition: 0.5s;
+}
+.russia{
+    left: 33%;
+    top: 16%;
+}
+.iran{
+    left: 60%;
+    top: 16%;
+}
+.netherlands{
+    left: 60%;
+    top: 40%;
+}
+.main-part .bubble{
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+
+}
+.bubble:hover{
+    transform: scale(1.5);
+}
+
