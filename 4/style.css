@@ -16,10 +16,18 @@
     }
 }
 
-main{
+@font-face {
+    font-family: 'myFont';
+    src: url('fonts/font.ttf');
+}
+p, h1{
+    font-family: 'myFont', sans-serif;
+}
+.main{
     position: relative;
     display: flex;
     justify-content: center;
+    height: 650px;
 }
 .main-img{
     position: absolute;
@@ -59,4 +67,10 @@ main{
 
 .ts-img:hover{
     animation: appearing 1s forwards alternate;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 7%;
 }

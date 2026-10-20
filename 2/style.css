@@ -6,9 +6,16 @@
 }
 .main-part img{
     width: 100%;
-    max-width: 500px;
+    max-width: 470px;
     height: auto;
 
+}
+@font-face {
+    font-family: 'myFont';
+    src: url('fonts/font.ttf');
+}
+p, h1{
+    font-family: 'myFont', sans-serif;
 }
 .bubble{
     position: absolute;
@@ -20,12 +27,12 @@
     top: 16%;
 }
 .iran{
-    left: 60%;
-    top: 16%;
+    left: 59%;
+    top: 14%;
 }
 .netherlands{
-    left: 60%;
-    top: 40%;
+    left: 57%;
+    top: 43%;
 }
 .main-part .bubble{
     width: 100%;
@@ -37,3 +44,8 @@
     transform: scale(1.5);
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+}
