@@ -39,31 +39,24 @@ body{
     max-width: 440px;
     height: auto;
 }
-.color-img{
-    position: absolute;
-    width: 100%;
-    max-width: 97px;
-    height: auto;
-    animation: appearing 1s forwards alternate;
-}
 .russia{
-    top: 183.4px;
+    top: 161.4px;
     left: 799.2px;
 }
 .iran{
-    top: 297px;
+    top: 260px;
     left: 800px;
     max-width: 98px;
 }
 .netherlands{
-    top: 416px;
+    top: 365px;
     left: 802px;
 }
 
 .ts-img{
     position: absolute;
     width: 100%;
-    max-width: 97px;
+    max-width: 88px;
     height: auto;
     opacity: 0;
     animation: disappearing 0.1s forwards alternate;
