@@ -1,6 +1,10 @@
 *{
     font-family: 'myFont', sans-serif;
 }
+@font-face {
+    font-family: 'myFont';
+    src: url('fonts/font.ttf');
+}
 body{
     height: 100vh;
     width: 100%;
@@ -11,47 +15,40 @@ body{
     align-items: center;
 
 }
-.main-part img{
+.div-images{
+    position: relative;
+    width: 440px;
+    height: 600px;
+}
+.main-image{
+    display: block;
     width: 100%;
-    max-width: 440px;
     height: auto;
 
 }
-@font-face {
-    font-family: 'myFont';
-    src: url('fonts/font.ttf');
-}
 .bubble{
     position: absolute;
-    
     transition: 0.5s;
 }
 .russia{
-    left: 34%;
-    top: 20%;
+    left: -8%;
+    top: 10%;
 }
 .iran{
-    left: 59%;
-    top: 20%;
+    left: 80%;
+    top: 10%;
 }
 .netherlands{
-    left: 57%;
-    top: 43%;
+    left: 80%;
+    top: 38%;
 }
-.main-part .bubble{
-    width: 100%;
-    max-width: 150px;
+.bubble{
+    width: 150px;
     height: auto;
 
 }
 .bubble:hover{
     transform: scale(1.5);
-}
-
-footer{
-    display: flex;
-    justify-content: center;
-    gap: 7%;
 }
 
 /* add header and footer for introduction website */
