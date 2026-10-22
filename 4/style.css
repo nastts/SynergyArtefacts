@@ -79,6 +79,15 @@ body{
     align-items: center;
     z-index: 20;
 }
+.group-title {
+    font-family: 'MyFont', sans-serif;
+    font-size: clamp(1.2rem, 2.2vw, 1.8rem);
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+}
 
 .title-badge {
     display: inline-flex;
@@ -90,8 +99,8 @@ body{
     border-radius: 40px;
     box-shadow: 3px 3px 0px rgb(96, 92, 238);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-    height: 50px;
-    width: 12%;
+    height: 40px;
+    width: 15%;
 }
 
 .title-badge:hover {
