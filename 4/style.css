@@ -28,35 +28,37 @@ body{
     src: url('fonts/font.ttf');
 }
 .main{
-    position: relative;
     display: flex;
     justify-content: center;
     height: 600px;
 }
+.div-images{
+    position: relative;
+    width: 440px;
+    height: 600px;
+}
 .main-img{
-    position: absolute;
-    width: 100%;
-    max-width: 440px;
+    display: block;
+    width: 440px;
     height: auto;
 }
 .russia{
     top: 161.4px;
-    left: 799.2px;
+    left: 59.7%;
 }
 .iran{
     top: 260px;
-    left: 800px;
+    left: 59.8%;
     max-width: 98px;
 }
 .netherlands{
     top: 365px;
-    left: 802px;
+    left: 60.5%;
 }
 
 .ts-img{
     position: absolute;
-    width: 100%;
-    max-width: 88px;
+    width: 88px;
     height: auto;
     opacity: 0;
     animation: disappearing 0.1s forwards alternate;
