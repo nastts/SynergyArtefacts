@@ -34,7 +34,7 @@ body{
 }
 .div-images{
     position: relative;
-    width: 500px;
+    width: 450px;
     height: 80%;
 }
 .main-img{
@@ -43,21 +43,21 @@ body{
     height: 100%;
 }
 .russia{
-    top: 184px;
-    left: 60%;
+    top: 165px;
+    left: 59.8%;
 }
 .iran{
-    top: 296px;
-    left: 60.5%;
+    top: 266px;
+    left: 60%;
 }
 .netherlands{
-    top: 415px;
-    left: 60.6%;
+    top: 373.5px;
+    left: 60.3%;
 }
 
 .ts-img{
     position: absolute;
-    width: 98px;
+    width: 90px;
     height: auto;
     opacity: 0;
     animation: disappearing 0.1s forwards alternate;
